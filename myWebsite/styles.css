@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins',sans-serif;
+    list-style:none;
+    text-decoration:none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+}
+
+body{
+    background-color: var(--bg-color);
+    color:var(--text-color)
+} */
+ 
+.column{
+    text-align: center;
+    padding:2rem;
+}
+#title{
+    text-align: center;
+    background-color:white;
+    background-image: linear-gradient(to top, white , trasparent);
+    color:black;
+    line-height:2;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+.navbar{
+    margin:0;
+    padding:2rem;
+    color:black;
+    box-shadow: black;
+    letter-spacing:0.10rem;
+    font-weight: 900;
+    background-image: linear-gradient(to top, white , skyblue);
+
+}
+.navbar-toggler{
+    color: black;
+}
+.webdev{
+    width:60%;
+    height:80%;
+    background-color:rgb(248, 248, 248);
+    color:rgb(248, 248, 248);
+}
+.firsttitle{
+    
+    padding-top:5rem;
+    padding-right:0;
+   
+}
+.git{
+    width:200px;
+    display: flex;
+    align-items: center;
+    margin:auto;
+}
+.git a{
+    padding:15px;
+}
+.git .fa-hackerrank{
+    color:green;
+}
+
+.git .linkedin{
+    margin:10px;
+    align-items: center;
+}
+.git .fa-github{
+    color:black;
+}
+.secondimage{
+    text-align: left;
+    background-image: url("image/Inkedgirlwebdev.jpg");
+    padding-left:0;
+    background-size: cover;
+    height:500px;
+   background-color: #f2f2f2;
+}
+.title{
+    padding:5rem;
+   
+}
+.aboutmetag{
+    padding:2rem;
+}
+
+
+/* about me */
+ #aboutMe{
+    text-align: center;
+    background-color: royalblue;
+    color:white;
+     margin:2rem 0;
+}
+.aboutme{
+    text-align: center;
+    padding:5rem;
+}
+.companylink{
+    color:#f2f2f2;
+    text-decoration:none;
+    font-weight: 900;
+    font-size: 2;
+    color:black;
+}
+.img-container{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.about-img{
+    border-style:solid;
+    border-radius:50%;
+    border-color: white;
+    width:70%;
+    height:80%;
+}
+.Column{
+    padding:20px 0 20px;
+}
+.first{
+    padding-left: 70px;
+    
+}
+.second{
+    text-align: left;;
+    padding-top: 50px;
+    line-height:2;
+}
+
+#ThingsILove{
+   
+    margin:3rem;
+    text-align: center;
+    color:blue;
+    padding:5rem;
+}
+.thingsILove{
+    margin:2rem;
+}
+.things{
+    margin:5rem 0;
+} 
+.card-body{
+    text-align: center;
+    align-items: center;
+}
+.card-text{
+    font-size: 12px;
+    color:black;
+}
+.fontimages{
+    display: block;
+    text-align: center;
+justify-content: center;
+text-align: center;
+padding-top:2rem;
+    color: rgb(248, 248, 248);
+    background: linear-gradient(134deg, rgb(106, 152, 240) 0%, rgb(73, 97, 220) 99%);
+    width:100px;
+height:100px;
+border-radius: 50%;
+margin: 1rem auto;
+}
+
+/* card */
+.card{
+    box-shadow: 5px 10px skyblue;
+    margin:1rem auto;
+    text-align: center;
+    justify-content:space-evenly;
+    padding:1rem;
+}
+@media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+
+/* contact */
+.fa-color{
+    color:white;
+    padding:2rem 2rem 1rem;
+    margin:2rem 2rem 1rem;
+}
+.getintouch{
+    text-align: center;
+    color:blue; 
+    
+}
+
+/* skills container */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+#skills{
+    align-items: center;
+    margin:2rem auto 5rem;
+}
+#skills .heading{
+    text-align: center;
+}
+#skills .heading h2{
+    color:royalblue;
+}
+.skills-img {
+    align-items: center;
+    text-align: center;
+    
+
+}
+.bars{
+    align-items: center;
+    margin:1rem auto ;
+    padding-top:2rem;
+    text-align: center;
+   
+}
+.bars .container{
+    margin:1rem;
+    
+    
+}
+
+.contact{
+    
+    text-align:center;
+    color:white;
+}
+.left{
+    padding:2rem 0 2rem;
+    background-color: blue;
+    height:50vh;
+    margin:5rem 0 2rem;
+
+}
+.containerform{
+    margin:2rem 2rem 2rem 0;
+    padding:2rem;
+    border-radius: 5px;    
+    background-color:rgb(248, 248, 248);
+}
+form input, form textarea {
+    width:100%;
+    border:0;
+    padding:15px;
+    margin:15px 0;
+    color:white;
+    outline:none;
+    background:#f2f2f2;
+    /* border-radius: 20%; */
+
+
+}
+
+.button{
+    text-align: left;
+}
+.footercontainer{
+    padding:5rem;
+    background-color: blue;
+}
+
+form textarea{
+    color:black;
+}
+
+
+
